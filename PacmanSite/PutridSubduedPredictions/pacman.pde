@@ -1,4 +1,4 @@
-/* @pjs preload="https://lh3.googleusercontent.com/R7nEuOHEUAFkhqVBxrUYjSaHMzu5jGh42gGbPxricEQA2wJ_OZ9e3UNe-2rdMa4nlNa2AdIgJMArD7iR7JRnZ2Thwkujpgun8aubnGgQIy0VgyO9y7sPJF6JSvJJUDPRBL1hUR2uKfpF2jYGUZsNStBFv6L30B5fpQWct_h_hyY6A0sB65Y3cqdxuGEZf0CTrbm2nc9q1J5uKYjEYzERn8UUJmJvEj5XNpLbelCZNazSRZIUPsOudMl_GhVLhP7vRFLZPjnxisrzDWI0wW_WvS0-a5rAEkxPOKHWpN3ZhZgwMwiJ12uJAHlo33RVDkOeJIzMdvPozEUaLa3kKBNXqWhSzUQU5iYtXCm3itkBzN1wJKiGf2irYCIBJsNQ1SaJGOUWV92_P9TLcl-VM89zM3OqV7gbZWPF1i3gyUxUZnBqmHPGt1PH_9sN0wlkUvAYW5iex2xA01htQZ-fHGFLO92_lm-WggQIcpuOv27FEBi3n_ri3Scmx_H5jmzZL9_h-jlZCrIHOGmbpn6yAY5UlpSonLTvPWqIqJ_r41qoPRi0QZJdLvxBwcR7HOuLQ2Ov0FSqV0uj_64jzcl20ssHQk9al1lz5ua6aAARtPjHjsDQiToSaWmtjNei3ncN3s9t7lr_t-_mLkUwFbUfN_6NEkHIX_G2IfiM24VB2YZEJ3NtecM8BybG-Q=w1369-h1513-no";*/
+/* @pjs preload="https://grid-paint.appspot.com/images/png/5099824051388416.png";*/
 int games = 1;
 int []HS = new int[100];
 int rows = 21;
@@ -18,9 +18,9 @@ int prevTime2 = 0;
 int prevDC = 0;
 
 void setup(){
- size(1000,1000); 
+ size(1380,1512); 
  background(0);
- maze = loadImage("https://lh3.googleusercontent.com/R7nEuOHEUAFkhqVBxrUYjSaHMzu5jGh42gGbPxricEQA2wJ_OZ9e3UNe-2rdMa4nlNa2AdIgJMArD7iR7JRnZ2Thwkujpgun8aubnGgQIy0VgyO9y7sPJF6JSvJJUDPRBL1hUR2uKfpF2jYGUZsNStBFv6L30B5fpQWct_h_hyY6A0sB65Y3cqdxuGEZf0CTrbm2nc9q1J5uKYjEYzERn8UUJmJvEj5XNpLbelCZNazSRZIUPsOudMl_GhVLhP7vRFLZPjnxisrzDWI0wW_WvS0-a5rAEkxPOKHWpN3ZhZgwMwiJ12uJAHlo33RVDkOeJIzMdvPozEUaLa3kKBNXqWhSzUQU5iYtXCm3itkBzN1wJKiGf2irYCIBJsNQ1SaJGOUWV92_P9TLcl-VM89zM3OqV7gbZWPF1i3gyUxUZnBqmHPGt1PH_9sN0wlkUvAYW5iex2xA01htQZ-fHGFLO92_lm-WggQIcpuOv27FEBi3n_ri3Scmx_H5jmzZL9_h-jlZCrIHOGmbpn6yAY5UlpSonLTvPWqIqJ_r41qoPRi0QZJdLvxBwcR7HOuLQ2Ov0FSqV0uj_64jzcl20ssHQk9al1lz5ua6aAARtPjHjsDQiToSaWmtjNei3ncN3s9t7lr_t-_mLkUwFbUfN_6NEkHIX_G2IfiM24VB2YZEJ3NtecM8BybG-Q=w1369-h1513-no", "jpg");
+ maze = loadImage("https://grid-paint.appspot.com/images/png/5099824051388416.png", "png");
  grid2();
  time = millis();
   prevTime = millis();
